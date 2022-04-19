@@ -22,7 +22,7 @@ public class Program4 {
 					+ "WHERE "
 					+ "ID = ?");
 			
-			st.setInt(1, 2);
+			st.setInt(1, 5);
 			
 			int rows = st.executeUpdate();
 			System.out.println("Linhas afectadas = "+ rows);
