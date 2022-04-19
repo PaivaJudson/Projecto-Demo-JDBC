@@ -24,9 +24,9 @@ public class Program5 {
 			int rows1 = st.executeUpdate("UPDATE SELLER SET BASESALARY = 2090 WHERE DEPARTMENTID = 1");
 			
 			int x = 1;
-			if(x < 2) {
-				throw new SQLException("Fake Error!");
-			}
+			//if(x < 2) {
+			//	throw new SQLException("Fake Error!");
+			//}
 			
 			int rows2 = st.executeUpdate("UPDATE SELLER SET BASESALARY = 3090 WHERE DEPARTMENTID = 2");
 			
